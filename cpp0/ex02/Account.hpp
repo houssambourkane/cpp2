@@ -33,8 +33,8 @@ public:
 	~Account( void );
 
 	void	makeDeposit( int deposit );
-	void	makeWithdrawal( int withdrawal );
-	int		checkAmount( int amount ) const;
+	bool	makeWithdrawal( int withdrawal );
+	int		checkAmount( void ) const;
 	void	displayStatus( void ) const;
 
 
@@ -55,7 +55,6 @@ private:
 	Account( void );
 
 };
-
 
 // ************************************************************************** //
 // vim: set ts=4 sw=4 tw=80 noexpandtab:                                      //

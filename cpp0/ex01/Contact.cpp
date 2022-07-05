@@ -6,21 +6,11 @@
 /*   By: hbourkan <hbourkan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 15:32:31 by hbourkan          #+#    #+#             */
-/*   Updated: 2022/06/28 15:32:33 by hbourkan         ###   ########.fr       */
+/*   Updated: 2022/07/02 20:31:01 by hbourkan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Contact.hpp"
-#include <iostream>
-#include <cstring>
-
-Contact::Contact() {
-    // std::cout << "Phonebook constructed" << std::endl;
-}
-
-Contact::~Contact() {
-    // std::cout << "Phonebook destructed" << std::endl;
-}
 
 void Contact::ADD(std::string first_name, std::string last_name, std::string nick_name, std::string dark_secret, std::string number) {
     this->_first_name = first_name;

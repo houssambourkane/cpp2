@@ -6,7 +6,7 @@
 /*   By: hbourkan <hbourkan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 15:32:36 by hbourkan          #+#    #+#             */
-/*   Updated: 2022/06/28 15:32:38 by hbourkan         ###   ########.fr       */
+/*   Updated: 2022/07/02 20:31:49 by hbourkan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,6 @@
 
 class Contact {
     public:
-        Contact();
-        ~Contact();
-        
         void ADD(std::string first_name, std::string last_name, std::string nick_name, std::string dark_secret, std::string number);
         std::string get_first_name(void);
         std::string get_last_name(void);
